@@ -140,7 +140,7 @@ void my3Dscene::paintCircle()
 void my3Dscene::paintCircle1()
 {
     const float r=40;
-    const float sides=40;
+    const float sides=10;
     glBegin( GL_TRIANGLE_FAN );
                   for(int i = 0; i <= sides; i++ )
                   {
